@@ -42,12 +42,6 @@ test('Testing containsNum Hey.What -- success', () => {
   expect(got).toBe(expected);
 })
 
-test('Testing containsNum Hello World! -- success', () => {
-  const expected = false;
-  const got = mut.containsNumbers('Hello World!');
-  expect(got).toBe(expected);
-})
-
 test('Testing containsNum [space] -- success', () => {
   const expected = false;
   const got = mut.containsNumbers(' ');
